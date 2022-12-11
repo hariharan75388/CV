@@ -23,11 +23,10 @@ html{
 }
 
 .Hero-section{
-    display: grid;
-    grid-template-columns: auto 1.5fr;
+    Text-align:center;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+ 
 
     height: 90vh;
     background-color: #a4dff1;
@@ -37,16 +36,14 @@ html{
     color:#314348;
 
 }
-.head-content{
-    border: solid 2px #628691;
-    margin-left: 1rem;
+
 
 }
 .img{
     height: 30rem;
     width: 30rem;
-    padding-left: 6rem;
-    justify-content:right;
+    Text-align:center;
+
 }
 .Heading-section{
     font-size: 6.2rem;
