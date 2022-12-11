@@ -1,0 +1,160 @@
+/*
+spacing system:
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+Font-size:
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 99  */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body{
+    
+    background-color: #fff
+    
+}
+
+html{
+    font-size: 62.5%;
+    font-family: sans-serif;
+    color: #555;
+}
+
+.Hero-section{
+    display: grid;
+    grid-template-columns: auto 1.5fr;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+    height: 90vh;
+    background-color: #a4dff1;
+    font-weight: 900;
+    text-align: center;
+    padding: 2.4rem;
+    color:#314348;
+
+}
+.head-content{
+    border: solid 2px #628691;
+    margin-left: 1rem;
+
+}
+.img{
+    height: 30rem;
+    width: 30rem;
+    padding-left: 6rem;
+    justify-content:right;
+}
+.Heading-section{
+    font-size: 6.2rem;
+}
+.paragraph-section{
+    font-size: 3rem;
+}
+.contact-details{
+    display: flex;
+    justify-content: space-between;
+    padding: 3.2rem 8rem 3.2rem 8rem;
+    /*background-color: aqua;*/
+}
+
+.about{
+    color: #555;
+    padding-top: 10rem;
+    padding-left: 2.4rem;
+    padding-bottom: 2rem;
+
+}
+.about-heading{
+    font-size: 3.6rem;
+    padding-bottom: 1.2em;
+}
+.about-para{
+    font-size: 2.4rem;
+    line-height: 1.2;
+    word-spacing: 0.2rem;
+}
+.contact{
+    display: grid;
+    font-size: 2.4rem;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: auto 1fr;
+    gap:1rem;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+}
+.mail{
+    text-decoration: none;
+    color: #555;
+}
+.contact-icon{
+    height: 3rem;
+    width: 3rem;
+}
+.skills{
+    font-size: 2.4rem;
+    padding-left: 2.4rem;
+    color: #555;
+    font-weight: bold;
+    
+}
+.skills-heading{
+    font-size: 3.6rem;
+    font-weight: bold;
+}
+.skill-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap:4rem;
+    padding: 2rem;
+}
+
+.experience{
+    padding: 2.4rem;
+    padding-bottom: 6rem;
+    color: #555;
+}
+.exp-head{
+    font-size: 3rem;
+    font-weight: bold;
+    color: #555;
+    
+}
+.exp-comp-name{
+    font-size: 2.6rem;
+    font-weight: bold;
+    color: #555;
+}
+.exp-comp{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-around;
+    
+    padding: 4rem 10rem 2rem 10rem;
+    /* padding-top: 4rem;
+    padding-left: 20rem; */
+
+}
+
+.exp-role{
+    font-size: 3.6rem;
+    
+}
+.exp-role-name{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.exp-role-work{
+    font-size: 2rem; 
+    list-style-type: circle;
+    word-spacing: -1px;
+    line-height: 1.5;
+    
+}
+.list-icon{
+    font-size: 2rem;
+}
