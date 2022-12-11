@@ -23,7 +23,7 @@ html{
 }
 
 .Hero-section{
-    display: grid;
+   /* display: grid;
     grid-template-columns: auto 1.5fr;
     justify-content: center;
     align-items: center;
@@ -34,7 +34,7 @@ html{
     font-weight: 900;
     text-align: center;
     padding: 2.4rem;
-    color:#314348;
+    color:#314348;*/
 
 }
 .head-content{
